@@ -129,3 +129,13 @@ anime({
   direction: 'alternate',
   easing: 'linear',
 });
+
+anime({
+  targets: '#demo-svg  path',
+  strokeDashoffset: [anime.setDashoffset, 1],
+  easing: 'easeInOutQuad',
+  duration: 2000,
+  delay: function(el, i) { return i * 250 },
+  direction: 'alternate',
+  loop: true
+});
