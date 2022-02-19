@@ -1,4 +1,6 @@
 # animation
 Simple Animation components, made using Anime.js library
 
-https://github.com/juliangarnier/anime
+Site: https://ashish16052.github.io/animation/
+
+Library: https://github.com/juliangarnier/anime
